@@ -33,5 +33,9 @@ const BackButton = () => {
 }
 
 createRoot(document.getElementById('root')!).render(
-    <BackButton />
+    <>
+        <Component />
+        <BackButton />
+    </>
+    
 )
